@@ -1,0 +1,96 @@
+/* line 1, ../sass/app.sass */
+.frame {
+  padding: 0px;
+  box-shadow: rgba(0, 0, 0, 0.6) 0px 2px 6px 0px;
+  width: 35%;
+  margin: 0px auto;
+}
+/* line 7, ../sass/app.sass */
+.frame .to-do-header {
+  background: #0098ac;
+  color: #fff;
+  padding: 15px 20px;
+  font-weight: lighter;
+  text-transform: uppercase;
+}
+/* line 13, ../sass/app.sass */
+.frame .to-do-header h2 {
+  margin: 10px 0px;
+  padding: 0px;
+}
+/* line 18, ../sass/app.sass */
+.frame .to-do-content ul {
+  padding: 0px;
+  border: #0098ac;
+  margin: 0px;
+}
+/* line 22, ../sass/app.sass */
+.frame .to-do-content ul li {
+  list-style: none;
+  padding: 15px 20px;
+  border-bottom: #e7e7e7 1px solid;
+  border-top: #e7e7e7 1px solid;
+}
+/* line 28, ../sass/app.sass */
+.frame .to-do-content ul li label {
+  display: inline-block;
+}
+/* line 31, ../sass/app.sass */
+.frame .to-do-content ul li .comments-link {
+  text-decoration: none;
+  font-size: 10pt;
+  color: #0098ac;
+  float: right;
+}
+/* line 37, ../sass/app.sass */
+.frame .to-do-content ul li .date {
+  color: #ccc;
+  font-size: 9pt;
+  display: inline-block;
+  margin: 5px 0px;
+  text-style: italic;
+}
+/* line 44, ../sass/app.sass */
+.frame .to-do-content ul li:not(:nth-child(1)) {
+  border-top: none;
+}
+/* line 47, ../sass/app.sass */
+.frame .to-do-content ul li p {
+  margin: 10px 0px 0px 0px;
+}
+/* line 50, ../sass/app.sass */
+.frame::after {
+  display: block;
+  content: "";
+  clear: both;
+}
+
+/* line 56, ../sass/app.sass */
+.clock {
+  margin: 25px auto;
+  width: 35%;
+  background: #0098ac;
+  padding: 20px;
+}
+/* line 61, ../sass/app.sass */
+.clock .inner-clock {
+  text-align: center;
+  font-size: 22pt;
+  color: #fff;
+  font-weight: bold;
+}
+
+/* line 69, ../sass/app.sass */
+body * {
+  box-sizing: border-box;
+}
+
+/* line 73, ../sass/app.sass */
+body > h1 {
+  margin: 50px 0px 25px 0px;
+  padding: 0px;
+  text-align: center;
+  text-shadow: rgba(0, 0, 0, 0.9) 0px 2px 2px;
+  color: #191919;
+  font-size: 42pt;
+}
