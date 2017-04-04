@@ -4,6 +4,7 @@
 /node_modules
 /public/.sass-cache
 /public/favicon.ico
+/public/static/sass
 
 # testing
 /coverage

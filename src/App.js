@@ -5,7 +5,6 @@ import Clock from './clock/Clock';
 
 class App extends Component {
 	render () {
-		var styles_map = {};
 		let {activitiesList} = this.props;
 		return (
 			<div className="app">

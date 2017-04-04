@@ -13,7 +13,6 @@ class Clock extends React.Component {
 			seconds: cdate.getSeconds(),
 			ampm: cdate.getHours() >= 12 ? 'pm' : 'am'
 		};
-
 		this.setTimer();
 	}
 	render(){

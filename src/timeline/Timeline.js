@@ -14,7 +14,7 @@ class Timeline extends React.Component
 	render(){
 		const {activitiesList} = this.props;
 		return (
-			<div className="frame">
+			<div className="frame row">
 				<Header title={this.props.title}/>
 				<Content activitiesList={activitiesList}/>
 			</div>

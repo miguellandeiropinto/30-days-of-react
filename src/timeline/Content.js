@@ -11,7 +11,7 @@ class Content extends React.Component {
 	render(){
 		let {activitiesList} = this.props;
 		return (
-			<div className="to-do-content">
+			<div className="to-do-content row">
 				<ul className="to-do-list">
 					{ activitiesList.map((a) => {
 						return (

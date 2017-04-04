@@ -11,9 +11,10 @@ class Activity extends React.Component {
 		const {activity} = this.props;
 		return (
 			<li className="to-do-item">
-				<label>{activity.user.name}</label><a href="#" className="comments-link"><span>Comments</span>2</a><br></br>
+				<label>{activity.user.name}</label><br></br>
 				<span className="date">{activity.timestamp}</span>
 				<p>{activity.todo}</p>
+				<a href="#" className="comments-count"><span className="fa fa-comment"></span> {activity.comments.length}</a>
 			</li>
 		)
 	}
